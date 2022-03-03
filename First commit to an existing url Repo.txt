@@ -7,7 +7,7 @@ Navigating to the directory you wish to push
 cd 'C:\Users\There_Are_Many_Paths'
 
 Method 1 - > Your First Commit
-
+ 
 git init
 git add . #( full stop is used for all )
 git status #(This confirms any changes)
