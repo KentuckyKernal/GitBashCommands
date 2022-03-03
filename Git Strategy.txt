@@ -5,8 +5,8 @@ git clone 'url'
 
 -- Step 2 --
 
-Delete git on clone folder 
-Make changes
+Delete .git in clone folder 
+Make changes  #( If folders are removed a new branch will need to be made to push)
 
 -- Step 3 --
 
