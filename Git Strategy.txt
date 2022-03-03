@@ -1,0 +1,19 @@
+-- Step 1 --
+
+cd 'path for working in'
+git clone 'url'
+
+-- Step 2 --
+
+Delete git on clone folder 
+Make changes
+
+-- Step 3 --
+
+git init
+git add .
+git status
+git commit -m 'general changes'
+git remote add origin 'url'
+git branch -m 'date_time_message' #( a new branch or an existing branch )
+git push -u origin 'date_time_message' #( the new branch or replace existing branch )

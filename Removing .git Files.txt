@@ -1,0 +1,27 @@
+
+-- Using The Windows Command Line --
+
+Then you can type this command line: attrib -h -r -s /s /d E:\*.*
+and hit Enter to unhide the files and folders in drive E
+
+An example is
+
+C:\Windows\system32>attrib -h -r -s /s /d E:\*.*
+
+Then enter
+E:
+
+folowed by
+dir 
+
+This will list the directories in drive E
+You will see a file .git close to the top of the list
+Type the following 
+
+del .git
+
+type 
+
+Yes
+
+This will remove the local git repository from the folder

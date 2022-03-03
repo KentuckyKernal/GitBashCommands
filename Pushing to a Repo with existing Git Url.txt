@@ -1,0 +1,15 @@
+Understanding: directories are assigned to an url upon creation
+Therfore we can drop some of the commands required initiate this relationship 
+
+NOTE: you need speech marks around text if they make use of keywords
+
+Navigating to the directory you wish to push
+cd 'C:\Users\There_Are_Many_Paths'
+ 
+git init 
+git add .
+git status
+git commit -m 'Some Time'
+git branch -m 'Some Branch' #(If you are creating a branch or overite an existing branch )
+git push -u origin 'Some Branch'
+

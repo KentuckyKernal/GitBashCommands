@@ -1,0 +1,28 @@
+Pushing to Known Repo
+
+THIS NEED TO BE DONE FROM THE GITBASH BEFORE YOU USE IT WITHIN VISUAL STUDIO
+NOTE: you need speech marks around text if they make use of keywords
+
+Navigating to the directory you wish to push
+cd 'C:\Users\There_Are_Many_Paths'
+
+Method 1 - > Your First Commit
+
+git init
+git add . #( full stop is used for all )
+git status #(This confirms any changes)
+git commit -m 'Push It Real Good'
+git remote add origin 'https://github.com/KentuckyKernal/GitBashCommands.git' #(Only necessary on first commit of new repo)
+git branch -m 'branchname' #( to name the branch you want to change or create, default is master)
+git push -u origin 'branchname'
+
+Method 2 -> working in a directory that is already set up
+
+If you are in the directory for multiple commits a session the instructions will change
+you will only need one line of commands :
+
+git add .
+git status
+git commit -m 'Some Time'
+git branch -m 'Some Branch' #(If you are changing the branch to commit to)
+git push -u origin 'Some Branch'

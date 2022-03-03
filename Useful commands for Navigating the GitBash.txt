@@ -1,0 +1,29 @@
+
+
+------------------------------------------------------
+
+To nav to a Path
+cd 'E:\Folder\Subfolder\Subfolder\SubFolder\Subfolder'
+
+*occassionally the path will have too many arguments*
+you will need to iterate through the path from the root folder using cd whilst within the file
+
+for example  
+E:\Folder\Subfolder
+
+cd E:\Folder     ->   MINGW64 /e/Folder
+cd \Subfolder    ->   MINGW64 /e/Folder/Subfolder 
+
+------------------------------------------------------
+
+Git repo's are set on folders when you have made your first commit 
+Changing the directory you are working will point to the assigned repo 
+
+
+To verify Remote url connection
+git remote -v
+
+Set a new origin 
+git remote add origin https://github.com/KentuckyKernal/repoName.git
+
+-------------------------------------------------------

@@ -1,0 +1,24 @@
+
+** Note: You cannot push cloned files directly to git from the download file it has 
+**	 a hidden .git repo file has been embedded into folder
+**       The hidden .git file will still be present on the copied folder whilst in another file structure
+
+**       You will have to remove the local repo before creating a new origin
+**       You must only work on the cloned directory **
+
+**       A simple method is to delete the .git folder in folder/subfolders
+**       this can be done manually by changing properties (right click) of the folder to hidden 'Apply' 
+**       then undoing hidden 'Apply', then selecting and deleting the .git files
+**       Another method is to run from the cmd (see Removing .git Files)
+ 
+
+________________________________________________________________ 
+
+-- Nav to the file where you want the repo to be copied to --
+
+cd 'C:\Users\There_Are_Many_Paths'
+
+#Enter you url with the relative commands
+
+git clone 'https://github.com/KentuckyKernal/GitBashCommands.git'
+_________________________________________________________________
