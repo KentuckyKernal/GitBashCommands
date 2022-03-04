@@ -15,5 +15,5 @@ git add .
 git status
 git commit -m 'general changes'
 git remote add origin 'url'
-git branch -m 'date_time_message' #( a new branch or an existing branch )
-git push -u origin 'date_time_message' #( the new branch or replace existing branch )
+git branch -m 'date_time_message' #( an existing branch ('message') or a new branch ( with the addition of date_time ) )
+git push -u origin 'date_time_message' #( confirm decision in the line above )
