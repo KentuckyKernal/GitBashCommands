@@ -3,8 +3,5 @@ Knowing when to branch
 Branching is useful if you want to work on a cloned repository 
 and commit it onto git as you work on it.
 
-new branches can be made before a push command allowing you to push 
+New branches can be made before a push command allowing you to push 
 them onto the new or other branches.
-
-So why would you want more than one branch. Simply a central source 
-to draw from if anything should happenb to the version you are working on. 
