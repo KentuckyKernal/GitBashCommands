@@ -1,0 +1,7 @@
+
+
+General approach 
+1. Commit to a working branch
+2. and merge to default branch after a code review
+3. Might be a good idea to have a rollback branch
+
