@@ -1,7 +1,13 @@
 
 
-General approach 
+General approach & understanding
+
 1. Commit to a working branch
 2. and merge to default branch after a code review
 3. Might be a good idea to have a rollback branch
 
+If many developers are on a paticular project 
+a branch each is probably in order, perhaps a branch per area of the application 
+
+a branch per area is probably best for oversight concerns as development 
+into other application could be faster. 
