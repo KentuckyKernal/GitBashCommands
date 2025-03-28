@@ -2,9 +2,10 @@
 
 General approach & understanding
 
-1. Commit to a working branch
-2. and merge to default branch after a code review
-3. Might be a good idea to have a rollback branch
+0. Commit coed base to be devloped to a branch called 'Start_of_dev@time-utc'.
+1. When Development goals are completed -> Commit to a branch called 'remote_commit_to_merge'
+2. Create a pull request -> review the new code -> merge to default branch called 'master'
+ 'The first step allows us to have a rollback scenario'
 
 If many developers are on a paticular project 
 a branch each is probably in order, perhaps a branch per area of the application 
