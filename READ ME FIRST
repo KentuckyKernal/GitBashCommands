@@ -5,15 +5,16 @@ General approach & understanding
 0. Commit coed base to be devloped to a branch called 'Start_of_dev@time-utc'.
 1. When Development goals are completed -> Commit to a branch called 'remote_commit_to_merge'
 2. Create a pull request -> review the new code -> merge to default branch called 'master'
- 'The first step allows us to have a rollback scenario'
+ 'The first step allows us to have a rollback scenario, where we can download the code base as a zip file.'
+ 'Downloading steps 0. and 1. give us a version control scenario, which can be used to log progress'
 
 If many developers are on a paticular project 
 a branch each is probably in order, perhaps a branch per area of the application 
 
-a branch per area is probably best for oversight concerns as development 
-into other application could be faster. 
+a branch per area is probably best for oversight concerns as code could be translated 
+into other applications, reducing thinking time. 
 
 
-So far I am enjoting .NET integration with github 
+So far I am enjoying .NET integration with github 
 makes the whole process effortless.
-Certainly beats entire directories of roll backs per development blocks 
+
